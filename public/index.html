@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Entrar | cinelume</title>
+</head>
+<body>
+    <main class="auth">
+        <section class="auth-hero">
+            <a class="marca" href="index.html">cinelume</a>
+            <div>
+                <h2>Sua sessão começa aqui.</h2>
+                <p>Entre com seu CPF para voltar de onde parou.</p>
+            </div>
+        </section>
+
+        <section class="auth-form">
+            <div class="caixa">
+                <h1>Entrar</h1>
+
+                <div class="campo">
+                    <label>CPF</label>
+                    <input type="text" id="cpf" placeholder="000.000.000-00">
+                </div>
+
+                <div class="campo">
+                    <label>Senha</label>
+                    <input type="password" id="senha" placeholder="Sua senha">
+                </div>
+
+                <button class="cheio" onclick="enviarDados()">Entrar</button>
+
+                <p class="troca">Ainda não tem conta? <a href="/public/cadastro.html">Cadastre-se</a></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="/public/login.js"></script>
+</body>
+</html>

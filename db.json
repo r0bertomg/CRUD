@@ -1,0 +1,47 @@
+{
+  "pessoas": [
+    {
+      "id": "1",
+      "nome": "Admin",
+      "sobrenome": "Sistema",
+      "cpf": "111.111.111-11",
+      "email": "admin@email.com",
+      "senha": "admin",
+      "rua": "Rua Principal",
+      "cep": "00000-000",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "telefone": "11999999999",
+      "perfil": "admin"
+    },
+    {
+      "nome": "miguel",
+      "sobrenome": "Robert",
+      "cpf": "0000000000",
+      "email": "email@gmail",
+      "senha": "12356",
+      "rua": "bell terra",
+      "cep": "000000",
+      "cidade": "bel terra",
+      "estado": "sp",
+      "telefone": "00000000000",
+      "perfil": "cliente",
+      "id": "kaSA-hUwvog"
+    },
+    {
+      "nome": "miguel",
+      "sobrenome": "robert",
+      "cpf": "000000",
+      "email": "00@000000",
+      "senha": "12345",
+      "rua": "bal terra",
+      "cep": "0000000",
+      "cidade": "mogi",
+      "estado": "sp",
+      "telefone": "000000",
+      "perfil": "cliente",
+      "id": "i0HPyJGVRP4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
